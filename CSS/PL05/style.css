@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Playfair Display, serif;
+    color: white;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100dvw;
+    
+}
+
+/* #region navbar */
+.nav{
+    width: 90%;
+}
+.nav a{
+    color: #9a9689;
+}
+
+.title{
+    display: flex;
+    height: 3rem;
+    padding: 1rem 0;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #9a9689;
+}
+
+.large{
+    font-size: 2.25rem;
+    color: white !important;
+}
+
+.signup{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup a{
+    text-decoration: none;
+    border: 1px solid #9a9689;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    overflow: scroll;
+}
+
+.links::-webkit-scrollbar {
+    display: none;
+}
+
+/* #endregion */
+
+/* #region content */
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.card{
+    padding: 1rem 0;
+    border-radius: 8px;
+}
+
+.big-C{
+    background-color: #212529;
+    padding: 2rem;
+    line-height: 1.8;
+}
+
+/* #endregion */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #region desktop */
+
+@media (min-width: 770px) {
+    
+}
+/* #endregion */
